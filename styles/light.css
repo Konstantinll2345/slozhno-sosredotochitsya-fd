@@ -9,8 +9,47 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --bg-color: #FFF1F7;
+  --mune-br: #353430;
+  --bsh-color: rgba(255, 0, 112, 1);
+  --header-txt: #000028;
+  --accent-color:rgba(255, 0, 112, 1);
+  --accent-color:rgba(255, 0, 112, 1);
+  --title-color: rgba(219, 0, 255, 1);
+  --text-dark-title: #353430;
+  --text-dark-paragraph: #353430;
+  --link-border-dark:rgba(241, 178, 206, 1);
+  --button-hover-color: rgba(255, 0, 112, 0.4);
+  --text-color-button:rgba(255, 0, 112, 1);
+  --header-bg-txt: #FF8DCB;
+  --button-hover-color: rgba(255, 0, 112, 0.4);
+  --title-accent-color:rgba(255, 0, 112, 1);
+  --link-accent-color:rgba(255, 0, 112, 1);
+  --link-border-dark:rgba(241, 178, 206, 1);
+  --bg-image-dark: url(../images/cover-image-light.png);
 }
 
-.theme-light .page {
+.theme-light .rec {
   /* Вам также нужно будет написать ряд подобных селекторов */
+  display: none;
 }
+
+@media(prefers-color-scheme: light) {
+  .theme-light .page {
+  --bg-color: #FFF1F7;
+  --mune-br: #353430;
+  --bsh-color: #353430;
+  --title-color: #FFC2E6;
+  --accent-color:#FF8DCB;
+  --text-dark-title: #353430;
+  --text-dark-paragraph: #353430;
+  --header-bg-txt: #FF8DCB;
+  --text-color-button:#353430;
+  --button-hover-color: #32312D66;
+  --title-accent-color:#353430;
+  --link-border-dark:#353430;
+  --bg-image-dark: url(../images/cover-image-light.png);
+  }
+}
+
+

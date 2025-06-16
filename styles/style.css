@@ -41,7 +41,6 @@
 
 .rec {
   position: absolute;
-  right: 0;
   top: 10px;
   right: 39px;
   color: var(--text-color);
@@ -324,10 +323,6 @@
     margin-bottom: 20px;
   }
 
-  .footer__title {
-    font-size: var(--fz-header-title-tablet);
-  }
-
   .content-size-img__tablet {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -366,7 +361,8 @@
   }
 
   .footer__title {
-    padding:0 0 20px 10px;
+    padding: 0 0 20px 10px;
+    font-size: var(--fz-header-title-tablet);
   }
 
 }
@@ -426,6 +422,3 @@
     padding-top: 0px;
   }
 }
-
-/* День добрый. Если Вам не сложно скинете со скринами ошибки так как автосеты именно по пп не пропускает Спасибо за ранее.
- Я уже не понимаю и колпак кроет где у меня ошибки ))))))). Спасибо за понимание. */

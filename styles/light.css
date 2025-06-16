@@ -16,6 +16,7 @@
   --accent-color:rgba(255, 0, 112, 1);
   --accent-color:rgba(255, 0, 112, 1);
   --title-color: rgba(219, 0, 255, 1);
+  --header-txt: #000028;
   --text-dark-title: #353430;
   --text-dark-paragraph: #353430;
   --link-border-dark:rgba(241, 178, 206, 1);
@@ -26,6 +27,7 @@
   --title-accent-color:rgba(255, 0, 112, 1);
   --link-accent-color:rgba(255, 0, 112, 1);
   --link-border-dark:rgba(241, 178, 206, 1);
+  --dark-underline-link:rgba(241, 178, 206, 1);
   --bg-image-dark: url(../images/cover-image-light.png);
 }
 
@@ -41,6 +43,7 @@
   --bsh-color: #353430;
   --title-color: #FFC2E6;
   --accent-color:#FF8DCB;
+  --header-txt: #353430;
   --text-dark-title: #353430;
   --text-dark-paragraph: #353430;
   --header-bg-txt: #FF8DCB;
@@ -48,6 +51,7 @@
   --button-hover-color: #32312D66;
   --title-accent-color:#353430;
   --link-border-dark:#353430;
+  --dark-underline-link:#353430;
   --bg-image-dark: url(../images/cover-image-light.png);
   }
 }

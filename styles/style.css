@@ -1,7 +1,6 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  height: 100vh;
   min-height: 668px;
   background-color: var(--bg-color);
   background-image: var(--bg-image-dark);
@@ -32,8 +31,8 @@
 .decorated-zone::after {
   content: "";
   position: absolute;
-  bottom: 10px;
-  left: 10px;
+  bottom: 30px;
+  left: 20px;
   border-bottom: 1px solid var(--bsh-color);
   border-left: 1px solid var(--bsh-color);
   inline-size: 25px;
@@ -43,7 +42,8 @@
 .rec {
   position: absolute;
   right: 0;
-  margin: 12px 37px 0 0 ;
+  top: 10px;
+  right: 39px;
   color: var(--text-color);
   font-family: var(--fm);
   font-weight: var(--fw);
@@ -54,11 +54,12 @@
 .rec::after {
   content: "";
   position: absolute;
+  top: 0;
   width: 9px;
   height: 9px;
   margin: 9px;
   border-radius: 50%;
-  box-shadow: 0 0 4px 2px var(--accent-color);
+  box-shadow: 0px 0px 4px 2px var(--accent-color);
   background-color: #ff0070;
 }
 
@@ -82,6 +83,7 @@
   font-size: var(--font-size-main);
   text-transform: lowercase;
   background-color: transparent;
+  cursor: pointer;
 }
 
 .header__theme-menu-button_active {
@@ -172,7 +174,7 @@
 }
 
 .question__subtitle {
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .section__img {
@@ -195,18 +197,24 @@
 
 .shadow__link {
   text-decoration: none;
-  text-shadow: 2px 2px 0 var(--link-accent-color);
+  text-shadow: 1px 1.5px 0 var(--link-accent-color);
+  cursor: pointer;
 }
 
 .shadow__link:hover {
-  text-decoration: underline;
+  border-bottom: 1px solid var(--dark-underline-link);
+  cursor: pointer;
 }
 
 .shadow__link:focus {
+  outline: none;
+}
+
+.shadow__link:focus-visible {
   border: 1px solid var(--link-border-dark);
 }
 
-.content__subtitle-fw {
+.content__sky-subtitle-fw {
   font-weight: var(--fw);
 }
 
@@ -243,10 +251,14 @@
     min-block-size: 1024px;
   }
 
-   .header__theme-menu {
+  .header__theme-menu {
     grid-column: 2;
-    padding: 185px 10px 0 0;
+    padding: 183px 10px 0 0;
+    
+  }
 
+  .header__theme-menu-list {
+    row-gap: 12px;
   }
 
   .header-title__tablet {
@@ -294,16 +306,12 @@
     grid-template-columns: min-content 1fr;
     padding: 83px 10px 0 20px;
   }
- 
-  .content_sky, 
-  .content__musik, 
-  .content_walk, 
-  .content__meal, 
-  .content__book {
+
+  .section__variants-location {
     grid-column: 2;
   }
 
-  .title__second {
+  .title__interval {
     grid-row-start: 1;
     grid-row-end: 3;
   }
@@ -313,7 +321,7 @@
   }
 
   .question__subtitle {
-    padding-bottom: 20px;
+    margin-bottom: 20px;
   }
 
   .footer__title {
@@ -351,12 +359,16 @@
   }
 
   .footer {
-    display: grid;
     grid-template-columns: 1fr;
     min-height: 1024px;
-    margin-top: 58px;
+    margin-top: 68px;
     padding-top: 5px;
   }
+
+  .footer__title {
+    padding:0 0 20px 10px;
+  }
+
 }
 
 @media (width >= 1024px) {
@@ -382,21 +394,14 @@
     padding-top: 275px;
   }
 
-  .header__text {
-    padding: 115px 10px 0 11px;
-  }
-
-  .decorated-zone::after {
-    margin-left: 10px;
+  .header__text-desktop {
+    padding-top: 114px;
   }
 
   .section__title {
     min-width: 314.96px;
   }
 
-  .section__difficult {
-    padding-top: 50px;
-  }
 
   .section__сoncentration {
     grid-template-columns: repeat(3, 1fr);
@@ -407,7 +412,20 @@
     grid-column-end: 4;
   }
 
+  .section__img {
+    padding-top: 81px;
+  }
+
   .footer {
     min-height: 768px;
+    margin-top: 68px;
+    align-content: center;
+  }
+
+  .footer__title {
+    padding-top: 0px;
   }
 }
+
+/* День добрый. Если Вам не сложно скинете со скринами ошибки так как автосеты именно по пп не пропускает Спасибо за ранее.
+ Я уже не понимаю и колпак кроет где у меня ошибки ))))))). Спасибо за понимание. */

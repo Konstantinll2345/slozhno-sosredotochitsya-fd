@@ -1,7 +1,6 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  min-height: 668px;
   background-color: var(--bg-color);
   background-image: var(--bg-image-dark);
   background-position: center;
@@ -14,7 +13,7 @@
   display: grid;
   grid-template-columns: 1fr;
   height: 100vh;
-  font-family: var(--fm),sans-serif;
+  font-family: var(--main-font),sans-serif;
 }
 
 .decorated-zone::before {
@@ -31,8 +30,8 @@
 .decorated-zone::after {
   content: "";
   position: absolute;
-  bottom: 30px;
-  left: 20px;
+  bottom: 10px;
+  left: 10px;
   border-bottom: 1px solid var(--bsh-color);
   border-left: 1px solid var(--bsh-color);
   inline-size: 25px;
@@ -42,10 +41,10 @@
 .rec {
   position: absolute;
   top: 10px;
-  right: 39px;
+  right: 38px;
   color: var(--text-color);
-  font-family: var(--fm);
-  font-weight: var(--fw);
+  font-family: var(--main-font);
+  font-weight: var(--text-bold-normal);
   font-size: var(--font-size-main);
   text-transform: uppercase;
 }
@@ -71,14 +70,14 @@
 .header__theme-menu-list {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 10px;
+  gap: 13px;
 }
 
 .header__theme-menu-button {
   border: none;
   padding: 0 13px 0 13px;
   color: var(--text-color-button);
-  font-family: var(--fm),sans-serif;
+  font-family: var(--main-font),sans-serif;
   font-size: var(--font-size-main);
   text-transform: lowercase;
   background-color: transparent;
@@ -103,10 +102,10 @@
 }
 
 .header__title {
-  padding: 72px 10px 0 10px;
+  padding: 65px 10px 0 10px;
   color: var(--title-color);
   font-family: inherit;
-  font-weight: var(--fw-bold);
+  font-weight: var(--text-bold);
   font-size: var(--header-fz);
   line-height: 83%;
   text-shadow: 4px 4px 0 var(--accent-color);
@@ -129,8 +128,8 @@
 
 .header__paragraph {
   color: var(--header-txt);
-  font-family: var(--fm),sans-serif;
-  font-weight: var(--fw-bold);
+  font-family: var(--main-font),sans-serif;
+  font-weight: var(--text-bold);
   font-size: var(--font-size-main);
   line-height: var(--text-lh);
   white-space: normal;
@@ -138,16 +137,16 @@
 
 .section__title {
   color: var(--title-accent-color);
-  font-family: var(--fm),sans-serif;
-  font-weight: var(--fw-bold);
+  font-family: var(--main-font),sans-serif;
+  font-weight: var(--text-bold);
   font-size: var(--font-size-main);
   line-height: var(--text-lh);
 }
 
 .content__subtitle {
   color: var(--text-dark-title);
-  font-family: var(--fm),sans-serif;
-  font-weight: var(--fw-bold);
+  font-family: var(--main-font),sans-serif;
+  font-weight: var(--text-bold);
   font-size: var(--font-size-main);
   line-height: var(--text-lh);
 }
@@ -155,8 +154,8 @@
 .content__paragraph {
   padding-top: 9px;
   color: var(--text-dark-paragraph);
-  font-family: var(--fm),sans-serif;
-  font-weight: var(--fw);
+  font-family: var(--main-font),sans-serif;
+  font-weight: var(--text-bold-normal);
   font-size: var(--font-size-main);
   line-height: var(--text-lh);
 }
@@ -196,7 +195,7 @@
 
 .shadow__link {
   text-decoration: none;
-  text-shadow: 1px 1.5px 0 var(--link-accent-color);
+  text-shadow: 2px 2px var(--link-accent-color);
   cursor: pointer;
 }
 
@@ -214,7 +213,7 @@
 }
 
 .content__sky-subtitle-fw {
-  font-weight: var(--fw);
+  font-weight: var(--text-bold-normal);
 }
 
 .footer {
@@ -230,8 +229,8 @@
 
 .footer__title {
   color: var(--title-color);
-  font-family: var(--fm),sans-serif;
-  font-weight: var(--fw-bold);
+  font-family: var(--main-font),sans-serif;
+  font-weight: var(--text-bold);
   font-size: var(--header-fz);
   line-height: 83%;
   text-align: center;
@@ -242,6 +241,11 @@
 
   .page {
     padding: 10px 10px 0 0;
+  }
+
+  .decorated-zone::after {
+    bottom: 30px;
+    left: 20px;
   }
 
   .header {
@@ -316,7 +320,7 @@
   }
 
   .section__img {
-    padding: 84px 10px 0 20px;
+    padding: 80px 10px 0 20px;
   }
 
   .question__subtitle {
@@ -408,17 +412,10 @@
     grid-column-end: 4;
   }
 
-  .section__img {
-    padding-top: 81px;
-  }
-
   .footer {
     min-height: 768px;
-    margin-top: 68px;
-    align-content: center;
-  }
-
-  .footer__title {
-    padding-top: 0px;
   }
 }
+
+/*Доброго дня. Не могу понять, хотя сам цвет текста у меня отображается корректно. Скинете скрины так как полюбому развернете. 
+Спасибо большое за терпение!!!!!!!!!! Не понимаю чет где-то косяк автосеты на пп ругается на всех разврешениях. */

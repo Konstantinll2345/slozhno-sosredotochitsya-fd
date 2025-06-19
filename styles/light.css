@@ -27,7 +27,7 @@
   --link-accent-color:#ff8dcb;
 }
 
-.theme-light .rec  {
+.theme-light .rec {
   /* Вам также нужно будет написать ряд подобных селекторов */
   display: none;
 }

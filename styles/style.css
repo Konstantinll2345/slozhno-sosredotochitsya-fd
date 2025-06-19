@@ -195,7 +195,7 @@
 
 .shadow__link {
   text-decoration: none;
-  text-shadow: 2px 2px var(--link-accent-color);
+  text-shadow: 2px 2px 0 var(--link-accent-color);
   cursor: pointer;
 }
 

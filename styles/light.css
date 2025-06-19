@@ -27,15 +27,13 @@
   --link-accent-color:#ff8dcb;
 }
 
-.theme-light {
+.theme-light .rec  {
   /* Вам также нужно будет написать ряд подобных селекторов */
-  .rec {
-    display: none;
-  }
+  display: none;
 }
 
 @media(prefers-color-scheme: light) {
-  .theme-auto {
+  :root {
   --bg-color: #FFF1F7;
   --mune-br: #353430;
   --bsh-color: #353430;
@@ -52,5 +50,8 @@
   --dark-underline-link:#353430;
   --link-accent-color:#ff8dcb;
   --bg-image-dark: url(../images/cover-image-light.png);
+  }
+  .rec {
+    display: none
   }
 }

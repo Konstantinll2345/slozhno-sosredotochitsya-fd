@@ -6,10 +6,10 @@
   --main-font: "IBM Plex mono";
   --text-bold-normal: 400;
   --text-bold: 700;
+  --title-color: rgba(219, 0, 255, 1);
   --header-fz: clamp(7.25rem, 5.7694rem + 6.3174vw, 9.8125rem);
   --text-color: rgba(255, 0, 112, 1);
   --text-lh: 23.4px;
-  --title-color: rgba(219, 0, 255, 1);
   --bsh-color: rgba(255, 0, 112, 1);
   --font-size-main: 18px;
   --title-accent-color:rgba(255, 0, 112, 1);
@@ -23,3 +23,4 @@
   
 }
 
+/**/

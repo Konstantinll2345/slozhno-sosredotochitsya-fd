@@ -3,24 +3,34 @@
   и их переопределение под различные устройства
 */
 :root {
+  --bg-image-dark: url(../images/cover-image-dark.png);
   --main-font: "IBM Plex mono";
+  --main-font-size: 18px;
   --text-bold-normal: 400;
   --text-bold: 700;
-  --title-color: rgba(219, 0, 255, 1);
-  --header-fz: clamp(7.25rem, 5.7694rem + 6.3174vw, 9.8125rem);
-  --text-color: rgba(255, 0, 112, 1);
+  --header-title-fontsize: clamp(7.25rem, 5.7694rem + 6.3174vw, 9.8125rem);
   --text-lh: 23.4px;
-  --bsh-color: rgba(255, 0, 112, 1);
-  --font-size-main: 18px;
-  --title-accent-color:rgba(255, 0, 112, 1);
-  --link-accent-color:rgba(255, 0, 112, 1);
-  --header-bg-txt: #FF0070;
-  --text-color-button:rgba(255, 0, 112, 1);
   --font-size-tablet: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   --difficult-fz-tablet:clamp(22.1875rem, 15.2099rem + 29.771vw, 29.5rem);
   --fz-header-title-tablet:clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   --font-size--inline-sz-paragraph-header-dt: clamp(22.75rem, -1.0625rem + 49.6094vw, 30.6875rem);
+
+
+  --color-decorated-zone:rgba(255, 0, 112, 1);
+  --bg-color: #000028;
+  --color-rec:rgba(255, 0, 112, 1);
+  --color-title:rgba(219, 0, 255, 1);
+  --color-text-bold: rgba(0, 0, 40, 1);
+  --accent-color: rgba(255, 0, 112, 1);
+  --color-button:rgba(255, 0, 112, 1);
+  --color-link: rgba(255, 0, 112, 1);
+  --color-link-hover:rgba(241, 178, 206, 1);
+  --color-border-link:#f1b2ce;
+  --color-button-hover:rgba(255, 0, 112, 0.4);
+  --color-button-focus:rgba(255, 0, 112, 1);
+  --color-title-decor: rgba(255, 0, 112, 1);
+  --color-section-title:rgba(255, 0, 112, 1);
+  --accent-color-text: rgba(241, 178, 206, 1);
+  --color-border-focus-link:rgba(241, 178, 206, 1);
   
 }
-
-/**/

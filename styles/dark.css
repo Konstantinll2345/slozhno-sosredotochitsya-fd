@@ -12,24 +12,22 @@
   */
   --bg-image-dark: url(../images/cover-image-dark.png);
   --bg-color: #000028;
-  --title-color: rgba(219, 0, 255, 1);
-  --mune-br: rgba(255, 0, 112, 1);
-  --text-color: rgba(255, 0, 112, 1);
-  --bsh-color: rgba(255, 0, 112, 1);
-  --header-txt: #000028;
-  --text-dark-title: rgba(0, 0, 40, 1);
-  --accent-color:rgba(255, 0, 112, 1);
-  --text-dark-paragraph: rgba(241, 178, 206, 1);
-  --header-bg-txt: #FF0070;
-  --link-border-dark:rgba(241, 178, 206, 1);
-  --button-hover-color: rgba(255, 0, 112, 1);
-  --link-accent-color:rgba(255, 0, 112, 1);
-  --dark-underline-link: rgba(241, 178, 206, 1);
-  --text-color-button:rgba(255, 0, 112, 1);
-  --title-accent-color:rgba(255, 0, 112, 1);
+  --color-rec:rgba(255, 0, 112, 1);
+  --color-title:rgba(219, 0, 255, 1);
+  --accent-color: rgba(255, 0, 112, 1);
+  --color-button:rgba(255, 0, 112, 1);
+  --color-text-bold: rgba(0, 0, 40, 1);
+  --color-button-hover:rgba(255, 0, 112, 0.4);
+  --color-button-focus:rgba(255, 0, 112, 1);
+  --color-title-decor: rgba(255, 0, 112, 1);
+  --color-section-title:rgba(255, 0, 112, 1);
+  --accent-color-text: rgba(241, 178, 206, 1);
+  --color-decorated-zone:rgba(255, 0, 112, 1);
+  --color-border-link:#f1b2ce;
+  --color-link-hover:rgba(241, 178, 206, 1);
+  --color-link: rgba(255, 0, 112, 1);
+  --color-border-focus-link:rgba(241, 178, 206, 1);
   .rec {
-  display: block;
+    display: block;
+  }
 }
-}
-
-

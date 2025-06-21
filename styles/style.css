@@ -393,7 +393,7 @@
   .header__theme-menu {
     grid-column-start: 1;
     grid-column-end: 3;
-    padding-top: 0;
+    padding-top: 10px;
     padding-left: 20px;
   }
 
@@ -403,7 +403,7 @@
   }
 
   .header__title {
-    padding-top: 285px;
+    padding-top: 275px;
   }
 
   .header__text-desktop {
@@ -428,3 +428,6 @@
     min-height: 768px;
   }
 }
+/*Здравствуйте. Я вроде понял в чем ошибка, полностью переправил переменные в light, dark, variables, там было написанно 
+черти-что сам даже запутался в этом бардаке.
+ Спасибо за каменное терпение. Тесты пройдены.  */
